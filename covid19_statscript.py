@@ -37,8 +37,6 @@ overall_growth_rate = confirmed.copy()
 for day in range(1, len(confirmed)):
     overall_growth_rate.iloc[day] = ((active_cases.iloc[day] - active_cases.iloc[day - 1]) / active_cases.iloc[day - 1]) * 100
 
-# print(overall_growth_rate['US'].tail(10))
-
 death_rate = confirmed.copy()
 
 for day in range(0, len(confirmed)):
@@ -51,7 +49,7 @@ hospitalization_needed = confirmed.copy()
 for day in range(0, len(confirmed)):
     hospitalization_needed.iloc[day] = active_cases.iloc[day] * hospitalization_rate_estimate
 
-# Visualization
+# Visualization via Matplotlib
 
 countries = ['Ukraine', 'Hungary']
 
