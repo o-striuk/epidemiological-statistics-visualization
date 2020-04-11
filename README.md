@@ -13,4 +13,5 @@ The following spreadsheets were used:
 # Required Python Libraries
 
 Pandas — for data manipulation and analysis.
+
 Matplotlib — for creating static visualizations.
