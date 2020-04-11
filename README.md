@@ -1,6 +1,6 @@
 # Epidemiological Statistics Script
 
-Methods of statistical visualization of epidemiological data using COVID-19 open datasets compiled by the Johns Hopkins University Center (JHU CCSE).
+Script for statistical visualization of epidemiological data from COVID-19 open datasets compiled by the Johns Hopkins University Center (JHU CCSE).
 
 https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases
 
