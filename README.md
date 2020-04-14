@@ -15,3 +15,7 @@ The following spreadsheets were used:
 Pandas — for data manipulation and analysis.
 
 Matplotlib — for creating static visualizations.
+
+# Input
+
+The input CSV-files should be placed in the current folder.
